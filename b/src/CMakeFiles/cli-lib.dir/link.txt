@@ -1,0 +1,2 @@
+/usr/bin/ar cr libcli-lib.a  CMakeFiles/cli-lib.dir/cli.cc.o CMakeFiles/cli-lib.dir/cli_param.cc.o CMakeFiles/cli-lib.dir/cli_history.cc.o CMakeFiles/cli-lib.dir/xml.cc.o
+/usr/bin/ranlib libcli-lib.a

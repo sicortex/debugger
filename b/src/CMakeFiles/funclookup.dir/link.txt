@@ -1,0 +1,1 @@
+/opt/sicortex/bin/pathCC   -G0    CMakeFiles/funclookup.dir/funclookup.cc.o  -o ../bin/funclookup  libpathdb.a libcli-lib.a -lncurses -ldl -Wl,-E 

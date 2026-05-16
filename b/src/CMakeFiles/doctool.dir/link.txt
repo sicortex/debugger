@@ -1,0 +1,1 @@
+/opt/sicortex/bin/pathCC   -G0    CMakeFiles/doctool.dir/doctool.cc.o CMakeFiles/doctool.dir/doctext.cc.o  -o ../bin/doctool  

@@ -1,0 +1,40 @@
+Performing C SOURCE FILE Test HAVE_PTRACE_O_CONSTANTS failed with the following output:
+Change Dir: /home/jhj/debugger/b/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+gmake[1]: Entering directory `/.root0/local/home/jhj/debugger/b/CMakeFiles/CMakeTmp'
+/home/jhj/bin/cmake/bin/cmake -E cmake_progress_report /home/jhj/debugger/b/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/src.c.o
+/opt/sicortex/bin/pathcc   -G0   -DHAVE_PTRACE_O_CONSTANTS   -o CMakeFiles/cmTryCompileExec.dir/src.c.o   -c /home/jhj/debugger/b/CMakeFiles/CMakeTmp/src.c
+/home/jhj/debugger/b/CMakeFiles/CMakeTmp/src.c: In function 'main':
+/home/jhj/debugger/b/CMakeFiles/CMakeTmp/src.c:2: error: 'PTRACE_O_TRACEFORK' undeclared (first use in this function)
+/home/jhj/debugger/b/CMakeFiles/CMakeTmp/src.c:2: error: (Each undeclared identifier is reported only once
+/home/jhj/debugger/b/CMakeFiles/CMakeTmp/src.c:2: error: for each function it appears in.)
+gmake[1]: *** [CMakeFiles/cmTryCompileExec.dir/src.c.o] Error 1
+gmake[1]: Leaving directory `/.root0/local/home/jhj/debugger/b/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec/fast] Error 2
+
+Source file was:
+#include <sys/ptrace.h> 
+ int main() { int x = PTRACE_O_TRACEFORK; return 0; }
+Performing C SOURCE FILE Test HAVE_PTRACE_EVENT_CONSTANTS failed with the following output:
+Change Dir: /home/jhj/debugger/b/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+gmake[1]: Entering directory `/.root0/local/home/jhj/debugger/b/CMakeFiles/CMakeTmp'
+/home/jhj/bin/cmake/bin/cmake -E cmake_progress_report /home/jhj/debugger/b/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/src.c.o
+/opt/sicortex/bin/pathcc   -G0   -DHAVE_PTRACE_EVENT_CONSTANTS   -o CMakeFiles/cmTryCompileExec.dir/src.c.o   -c /home/jhj/debugger/b/CMakeFiles/CMakeTmp/src.c
+/home/jhj/debugger/b/CMakeFiles/CMakeTmp/src.c: In function 'main':
+/home/jhj/debugger/b/CMakeFiles/CMakeTmp/src.c:2: error: 'PTRACE_EVENT_FORK' undeclared (first use in this function)
+/home/jhj/debugger/b/CMakeFiles/CMakeTmp/src.c:2: error: (Each undeclared identifier is reported only once
+/home/jhj/debugger/b/CMakeFiles/CMakeTmp/src.c:2: error: for each function it appears in.)
+gmake[1]: *** [CMakeFiles/cmTryCompileExec.dir/src.c.o] Error 1
+gmake[1]: Leaving directory `/.root0/local/home/jhj/debugger/b/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec/fast] Error 2
+
+Source file was:
+#include <sys/ptrace.h> 
+ int main() { int x = PTRACE_EVENT_FORK; return 0; }

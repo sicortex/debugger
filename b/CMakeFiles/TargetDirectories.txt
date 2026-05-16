@@ -1,0 +1,8 @@
+/home/jhj/debugger/b/src/CMakeFiles/cli-lib.dir
+/home/jhj/debugger/b/src/CMakeFiles/doctool.dir
+/home/jhj/debugger/b/src/CMakeFiles/funclookup.dir
+/home/jhj/debugger/b/src/CMakeFiles/pathdb.dir
+/home/jhj/debugger/b/share/CMakeFiles/pathdb-el-stage.dir
+/home/jhj/debugger/b/etc/CMakeFiles/pathdb-help-stage.dir
+/home/jhj/debugger/b/src/CMakeFiles/pathdb-lib.dir
+/home/jhj/debugger/b/CMakeFiles/pathdb-stage.dir

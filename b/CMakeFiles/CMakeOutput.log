@@ -1,0 +1,198 @@
+The system is: Linux - 2.6.18.8-sc-lustre-perfmon - mips64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /opt/sicortex/bin/pathcc 
+Build flags: -G0
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is PathScale, found in "/home/jhj/debugger/b/CMakeFiles/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /opt/sicortex/bin/pathCC 
+Build flags: -G0
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is PathScale, found in "/home/jhj/debugger/b/CMakeFiles/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/jhj/debugger/b/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+gmake[1]: Entering directory `/.root0/local/home/jhj/debugger/b/CMakeFiles/CMakeTmp'
+/home/jhj/bin/cmake/bin/cmake -E cmake_progress_report /home/jhj/debugger/b/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.o
+/opt/sicortex/bin/pathcc   -G0      -o CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.o   -c /home/jhj/debugger/b/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec
+/home/jhj/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/opt/sicortex/bin/pathcc   -G0      CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.o  -o cmTryCompileExec  
+gmake[1]: Leaving directory `/.root0/local/home/jhj/debugger/b/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/jhj/debugger/b/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+gmake[1]: Entering directory `/.root0/local/home/jhj/debugger/b/CMakeFiles/CMakeTmp'
+/home/jhj/bin/cmake/bin/cmake -E cmake_progress_report /home/jhj/debugger/b/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o
+/opt/sicortex/bin/pathcc   -G0      -o CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o   -c /home/jhj/bin/cmake/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec
+/home/jhj/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/opt/sicortex/bin/pathcc   -G0     -v CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec   
+Path64 Community Compiler: Version 4.0.10
+Built on: 
+Thread model: posix
+GNU gcc version  (PathScale 4.0.10 driver)
+/usr/bin/ld -v -mips64 -melf64ltsmip --dynamic-linker=/lib64/ld-2.5.so -rpath /opt/pathscale/ice9_4.0.10_sicortex/lib/4.0.10/mips/64 -L/opt/pathscale/ice9_4.0.10_sicortex/lib/4.0.10/mips/64 -o cmTryCompileExec /usr/lib64/crt1.o /usr/lib64/crti.o /usr/lib/gcc/mips64el-sicortex-linux-gnu/4.2.3/crtbegin.o CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o -mips64 /usr/lib/gcc/mips64el-sicortex-linux-gnu/4.2.3/crtend.o /usr/lib64/crtn.o -lpscrt -L/usr/lib/gcc/mips64el-sicortex-linux-gnu/4.2.3 -lgcc_s -lscstr -lc 
+GNU ld (GNU Binutils) 2.18.50.20080215
+gmake[1]: Leaving directory `/.root0/local/home/jhj/debugger/b/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/jhj/debugger/b/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build]
+  ignore line: [gmake[1]: Entering directory `/.root0/local/home/jhj/debugger/b/CMakeFiles/CMakeTmp']
+  ignore line: [/home/jhj/bin/cmake/bin/cmake -E cmake_progress_report /home/jhj/debugger/b/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/opt/sicortex/bin/pathcc   -G0      -o CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o   -c /home/jhj/bin/cmake/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec]
+  ignore line: [/home/jhj/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1]
+  ignore line: [/opt/sicortex/bin/pathcc   -G0     -v CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec   ]
+  ignore line: [Path64 Community Compiler: Version 4.0.10]
+  ignore line: [Built on: ]
+  ignore line: [Thread model: posix]
+  ignore line: [GNU gcc version  (PathScale 4.0.10 driver)]
+  link line: [/usr/bin/ld -v -mips64 -melf64ltsmip --dynamic-linker=/lib64/ld-2.5.so -rpath /opt/pathscale/ice9_4.0.10_sicortex/lib/4.0.10/mips/64 -L/opt/pathscale/ice9_4.0.10_sicortex/lib/4.0.10/mips/64 -o cmTryCompileExec /usr/lib64/crt1.o /usr/lib64/crti.o /usr/lib/gcc/mips64el-sicortex-linux-gnu/4.2.3/crtbegin.o CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o -mips64 /usr/lib/gcc/mips64el-sicortex-linux-gnu/4.2.3/crtend.o /usr/lib64/crtn.o -lpscrt -L/usr/lib/gcc/mips64el-sicortex-linux-gnu/4.2.3 -lgcc_s -lscstr -lc ]
+    arg [/usr/bin/ld] ==> ignore
+    arg [-v] ==> ignore
+    arg [-mips64] ==> ignore
+    arg [-melf64ltsmip] ==> ignore
+    arg [--dynamic-linker=/lib64/ld-2.5.so] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/opt/pathscale/ice9_4.0.10_sicortex/lib/4.0.10/mips/64] ==> ignore
+    arg [-L/opt/pathscale/ice9_4.0.10_sicortex/lib/4.0.10/mips/64] ==> dir [/opt/pathscale/ice9_4.0.10_sicortex/lib/4.0.10/mips/64]
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec] ==> ignore
+    arg [/usr/lib64/crt1.o] ==> ignore
+    arg [/usr/lib64/crti.o] ==> ignore
+    arg [/usr/lib/gcc/mips64el-sicortex-linux-gnu/4.2.3/crtbegin.o] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-mips64] ==> ignore
+    arg [/usr/lib/gcc/mips64el-sicortex-linux-gnu/4.2.3/crtend.o] ==> ignore
+    arg [/usr/lib64/crtn.o] ==> ignore
+    arg [-lpscrt] ==> lib [pscrt]
+    arg [-L/usr/lib/gcc/mips64el-sicortex-linux-gnu/4.2.3] ==> dir [/usr/lib/gcc/mips64el-sicortex-linux-gnu/4.2.3]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lscstr] ==> lib [scstr]
+    arg [-lc] ==> lib [c]
+  remove lib [gcc_s]
+  collapse dir [/opt/pathscale/ice9_4.0.10_sicortex/lib/4.0.10/mips/64] ==> [/opt/pathscale/ice9_4.0.10_sicortex/lib/4.0.10/mips/64]
+  collapse dir [/usr/lib/gcc/mips64el-sicortex-linux-gnu/4.2.3] ==> [/usr/lib/gcc/mips64el-sicortex-linux-gnu/4.2.3]
+  implicit libs: [pscrt;scstr;c]
+  implicit dirs: [/opt/pathscale/ice9_4.0.10_sicortex/lib/4.0.10/mips/64;/usr/lib/gcc/mips64el-sicortex-linux-gnu/4.2.3]
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/jhj/debugger/b/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+gmake[1]: Entering directory `/.root0/local/home/jhj/debugger/b/CMakeFiles/CMakeTmp'
+/home/jhj/bin/cmake/bin/cmake -E cmake_progress_report /home/jhj/debugger/b/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/testCXXCompiler.cxx.o
+/opt/sicortex/bin/pathCC    -G0      -o CMakeFiles/cmTryCompileExec.dir/testCXXCompiler.cxx.o -c /home/jhj/debugger/b/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec
+/home/jhj/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/opt/sicortex/bin/pathCC    -G0      CMakeFiles/cmTryCompileExec.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec  
+gmake[1]: Leaving directory `/.root0/local/home/jhj/debugger/b/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/jhj/debugger/b/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+gmake[1]: Entering directory `/.root0/local/home/jhj/debugger/b/CMakeFiles/CMakeTmp'
+/home/jhj/bin/cmake/bin/cmake -E cmake_progress_report /home/jhj/debugger/b/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o
+/opt/sicortex/bin/pathCC    -G0      -o CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o -c /home/jhj/bin/cmake/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec
+/home/jhj/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/opt/sicortex/bin/pathCC    -G0     -v CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec   
+Path64 Community Compiler: Version 4.0.10
+Built on: 
+Thread model: posix
+GNU gcc version  (PathScale 4.0.10 driver)
+/usr/bin/ld -demangle -v -mips64 -melf64ltsmip --dynamic-linker=/lib64/ld-2.5.so -rpath /opt/pathscale/ice9_4.0.10_sicortex/lib/4.0.10/mips/64 -L/opt/pathscale/ice9_4.0.10_sicortex/lib/4.0.10/mips/64 -o cmTryCompileExec /usr/lib64/crt1.o /usr/lib64/crti.o /usr/lib/gcc/mips64el-sicortex-linux-gnu/4.2.3/crtbegin.o CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o -mips64 -L/usr/lib/gcc/mips64el-sicortex-linux-gnu/4.2.3 -lstdc++ /usr/lib/gcc/mips64el-sicortex-linux-gnu/4.2.3/crtend.o /usr/lib64/crtn.o -lpscrt -L/usr/lib/gcc/mips64el-sicortex-linux-gnu/4.2.3 -lgcc_s -lscstr -lmv -lc 
+GNU ld (GNU Binutils) 2.18.50.20080215
+gmake[1]: Leaving directory `/.root0/local/home/jhj/debugger/b/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/jhj/debugger/b/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build]
+  ignore line: [gmake[1]: Entering directory `/.root0/local/home/jhj/debugger/b/CMakeFiles/CMakeTmp']
+  ignore line: [/home/jhj/bin/cmake/bin/cmake -E cmake_progress_report /home/jhj/debugger/b/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/opt/sicortex/bin/pathCC    -G0      -o CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o -c /home/jhj/bin/cmake/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec]
+  ignore line: [/home/jhj/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1]
+  ignore line: [/opt/sicortex/bin/pathCC    -G0     -v CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec   ]
+  ignore line: [Path64 Community Compiler: Version 4.0.10]
+  ignore line: [Built on: ]
+  ignore line: [Thread model: posix]
+  ignore line: [GNU gcc version  (PathScale 4.0.10 driver)]
+  link line: [/usr/bin/ld -demangle -v -mips64 -melf64ltsmip --dynamic-linker=/lib64/ld-2.5.so -rpath /opt/pathscale/ice9_4.0.10_sicortex/lib/4.0.10/mips/64 -L/opt/pathscale/ice9_4.0.10_sicortex/lib/4.0.10/mips/64 -o cmTryCompileExec /usr/lib64/crt1.o /usr/lib64/crti.o /usr/lib/gcc/mips64el-sicortex-linux-gnu/4.2.3/crtbegin.o CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o -mips64 -L/usr/lib/gcc/mips64el-sicortex-linux-gnu/4.2.3 -lstdc++ /usr/lib/gcc/mips64el-sicortex-linux-gnu/4.2.3/crtend.o /usr/lib64/crtn.o -lpscrt -L/usr/lib/gcc/mips64el-sicortex-linux-gnu/4.2.3 -lgcc_s -lscstr -lmv -lc ]
+    arg [/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-v] ==> ignore
+    arg [-mips64] ==> ignore
+    arg [-melf64ltsmip] ==> ignore
+    arg [--dynamic-linker=/lib64/ld-2.5.so] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/opt/pathscale/ice9_4.0.10_sicortex/lib/4.0.10/mips/64] ==> ignore
+    arg [-L/opt/pathscale/ice9_4.0.10_sicortex/lib/4.0.10/mips/64] ==> dir [/opt/pathscale/ice9_4.0.10_sicortex/lib/4.0.10/mips/64]
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec] ==> ignore
+    arg [/usr/lib64/crt1.o] ==> ignore
+    arg [/usr/lib64/crti.o] ==> ignore
+    arg [/usr/lib/gcc/mips64el-sicortex-linux-gnu/4.2.3/crtbegin.o] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-mips64] ==> ignore
+    arg [-L/usr/lib/gcc/mips64el-sicortex-linux-gnu/4.2.3] ==> dir [/usr/lib/gcc/mips64el-sicortex-linux-gnu/4.2.3]
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [/usr/lib/gcc/mips64el-sicortex-linux-gnu/4.2.3/crtend.o] ==> ignore
+    arg [/usr/lib64/crtn.o] ==> ignore
+    arg [-lpscrt] ==> lib [pscrt]
+    arg [-L/usr/lib/gcc/mips64el-sicortex-linux-gnu/4.2.3] ==> dir [/usr/lib/gcc/mips64el-sicortex-linux-gnu/4.2.3]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lscstr] ==> lib [scstr]
+    arg [-lmv] ==> lib [mv]
+    arg [-lc] ==> lib [c]
+  remove lib [gcc_s]
+  collapse dir [/opt/pathscale/ice9_4.0.10_sicortex/lib/4.0.10/mips/64] ==> [/opt/pathscale/ice9_4.0.10_sicortex/lib/4.0.10/mips/64]
+  collapse dir [/usr/lib/gcc/mips64el-sicortex-linux-gnu/4.2.3] ==> [/usr/lib/gcc/mips64el-sicortex-linux-gnu/4.2.3]
+  collapse dir [/usr/lib/gcc/mips64el-sicortex-linux-gnu/4.2.3] ==> [/usr/lib/gcc/mips64el-sicortex-linux-gnu/4.2.3]
+  implicit libs: [stdc++;pscrt;scstr;mv;c]
+  implicit dirs: [/opt/pathscale/ice9_4.0.10_sicortex/lib/4.0.10/mips/64;/usr/lib/gcc/mips64el-sicortex-linux-gnu/4.2.3]
+
+

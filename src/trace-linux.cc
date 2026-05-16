@@ -3,6 +3,8 @@
 #include "trace.h"
 #include <endian.h>
 #include <sys/user.h>
+#include <ptrace.h>
+#include <string.h>
 
 /* find the offset of X into struct user (from sys/user.h) */
 #define STRUCT_USER_OFFSET(X) (&(((struct user*)0)->X))
@@ -21,8 +23,8 @@ int Trace::get_fpxregs (pid_t pid, void *fpxregs) {
 
 unsigned long Trace::get_dbgreg (pid_t pid, int idx) {
     /* find offset and access struct user */
-    void *addr = STRUCT_USER_OFFSET (u_debugreg[idx]) ;
-    return ptrace (PTRACE_PEEKUSER, pid, addr, 0) ;
+    //void *addr = STRUCT_USER_OFFSET (u_debugreg[idx]) ;
+    //return ptrace (PTRACE_PEEKUSER, pid, addr, 0) ;
 }
 
 int Trace::set_regs (pid_t pid, void *regs) {
@@ -39,8 +41,8 @@ int Trace::set_fpxregs (pid_t pid, void *fpxregs) {
 
 int Trace::set_dbgreg (pid_t pid, int idx, unsigned long val) {
     /* find offset and access struct user */
-    void *addr = STRUCT_USER_OFFSET (u_debugreg[idx]) ;
-    return ptrace (PTRACE_POKEUSER, pid, addr, val) ;
+    //void *addr = STRUCT_USER_OFFSET (u_debugreg[idx]) ;
+    //return ptrace (PTRACE_POKEUSER, pid, addr, val) ;
 }
 
 unsigned long Trace::read_data (pid_t pid, void *addr) {

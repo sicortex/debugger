@@ -1,0 +1,1 @@
+/opt/sicortex/bin/pathCC   -G0    CMakeFiles/pathdb.dir/driver.cc.o  -o ../bin/pathdb  libpathdb.a libcli-lib.a -lncurses -ldl -Wl,-E 

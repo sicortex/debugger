@@ -1,0 +1,4 @@
+
+/* #undef HAVE_PTRACE_O_CONSTANTS */
+/* #undef HAVE_PTRACE_EVENT_CONSTANTS */
+
